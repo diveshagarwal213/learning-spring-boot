@@ -121,3 +121,19 @@ public class CricketCoach implements Coach {
 
 }
 ```
+
+### Configure without using @component annotation
++ here we are defining how to create a object for my dependency
++ real world example an s3 object with default configuration
+```java
+@Configuration
+public class SportConfig {
+
+    // @Bean("swimCoach_custom_name") to over ride default 'swimCoach'  
+    @Bean()
+    public Coach swimCoach() {
+        return new SwimCoach();
+    }
+
+}
+```
