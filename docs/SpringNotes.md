@@ -137,3 +137,22 @@ public class SportConfig {
 
 }
 ```
+
+<!-- Section 3 Hibernate -->
+# JPA & Hibernate
+### Hibernate 
++ ORM
++ object to sql
+
+### JPA (Jakarta Persistence API or Java Persistence API)
++ Standard API for ORM
++ Only a Specification
+
+Basically Hibernate,EclipseLink flow JPA specs and we write code in JPA Specs in future if we need to switch or replace Hibernate with something else we easily switch.
+
+tree
+
+my_app -> JPA -> Hibernate -> JDBC -> data_base 
+
+
+007

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  db_my_cool_app:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: mysecretpassword
+      MYSQL_DATABASE: my_cool_app
+      MYSQL_USER: myuser
+      MYSQL_PASSWORD: mypassword
+    ports:
+      - "3307:3306"
