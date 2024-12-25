@@ -155,4 +155,7 @@ tree
 my_app -> JPA -> Hibernate -> JDBC -> data_base 
 
 
-007
+### DAO (Data Access Object)
++ DAO needs Entity Manager  
++ JPA Entity Manager is the main component for saving /retrieving entities
+ 

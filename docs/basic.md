@@ -1,3 +1,6 @@
+# vs code 
+alt + z in terminal to activate vertical scroll 
+
 # continue to
 - last seen 026
 
